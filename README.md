@@ -93,7 +93,7 @@ USAGE: vcsa-backup.ps1
 
 ## Deployment
 
-Edit the JSON configuration file. See the comments in sample.json.
+Edit the JSON configuration file.
 Basically the required information are:
 * Under "vCenter" section, fill hostname or IP address of the vCenter appliance and credentials
 * Under the "Transfert" section, fill hostname or IP address of the FTP server and credentials
