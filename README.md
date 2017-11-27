@@ -5,6 +5,7 @@ Another VCSA Backup script using REST API written in PowerShell.
 These instructions will get you a copy of the script. Executing the script through 2 main functions:
 * Initiate a backup of the appliance and store the file ona FTP server
 * Retrieve the backups status
+
 See deployment for notes on how to deploy on a live system.
 
 ### Prerequisites
@@ -127,4 +128,4 @@ PS C:\Virtualization\VMware\vcsa-backup> .\vcsa-backup.ps1 -f .\test-vcenter.jso
 
 ## Acknowledgments
 
-* I was initially inspired by this article https://www.brianjgraf.com/2016/11/18/vsphere-6-5-automate-vcsa-backup/ and would like to write my own script only using REST API. 
+* I was initially inspired by this article https://www.brianjgraf.com/2016/11/18/vsphere-6-5-automate-vcsa-backup/ and would like to write my own script using REST API only. 
