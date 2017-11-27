@@ -62,7 +62,7 @@ Mode                LastWriteTime         Length Name
 -a----       02/11/2017     17:03          17704 vcsa-backup.ps1
 ```
 
-Copy the dowloaded configuration file sample under the new directory. You could rename it with the appliance name for convenience, as one file is required per appliance to backup.
+Copy the dowloaded JSON configuration file sample under the new directory. You could rename it with the appliance name for convenience, as one file is required per appliance to backup.
 
 ```
 PS C:\Users\user1> copy .\Downloads\sample.json .\vcsa-backup\test-vcenter.json
@@ -93,7 +93,7 @@ USAGE: vcsa-backup.ps1
 
 ## Deployment
 
-Edit the JSON configuration file.
+Edit the JSON configuration file copied in the Installing steps.
 Basically the required information are:
 * Under "vCenter" section, fill hostname or IP address of the vCenter appliance and credentials
 * Under the "Transfert" section, fill hostname or IP address of the FTP server and credentials
