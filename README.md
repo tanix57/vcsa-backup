@@ -112,9 +112,9 @@ PS C:\Virtualization\VMware\vcsa-backup> .\vcsa-backup.ps1 -f .\test-venter.json
 
 ID                      Start Time               End Time                 Status    Progress %
 --                      ----------               --------                 ------    ----------
-20171125-130035-5705665 2017-11-25T13:01:03.667Z 2017-11-25T13:02:45.745Z SUCCEEDED        100
+20171127-130035-5705665 2017-11-25T13:01:03.667Z 2017-11-25T13:02:45.745Z SUCCEEDED        100
 <....>
-20170811-124430-5705665 2017-08-11T12:44:30.680Z 2017-08-11T12:45:04.856Z SUCCEEDED        100
+201702211-124430-5705665 2017-08-11T12:44:30.680Z 2017-08-11T12:45:04.856Z SUCCEEDED        100
 ```
 If a status should be sent by mail, add -m (or --mail) argument after the status keyword.
 
