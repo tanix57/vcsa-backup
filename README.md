@@ -117,7 +117,7 @@ ID                      Start Time               End Time                 Status
 <....>
 201702211-124430-5705665 2017-08-11T12:44:30.680Z 2017-08-11T12:45:04.856Z SUCCEEDED        100
 ```
-If a status should be sent by mail, add -m (or --mail) argument after the status keyword.
+If a status should be sent by mail, add -m (or --mail) argument after the keyword status.
 
 ```
 PS C:\Virtualization\VMware\vcsa-backup> .\vcsa-backup.ps1 -f .\test-vcenter.json -o status -m
