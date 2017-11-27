@@ -12,20 +12,6 @@ See deployment for notes on how to deploy on a live system.
 
 This script was tested with PowerShell V5 and PowerShell V4.
 
-```
-PS C:\> $PSVersionTable.PSVersion
-
-Major  Minor  Build  Revision
------  -----  -----  --------
-5      1      14393  1770
-
-PS C:\> $PSVersionTable.PSVersion
-
-Major  Minor  Build  Revision
------  -----  -----  --------
-4      0      -1     -1
-```
-
 ### Installing
 
 A step by step serie.
