@@ -1,5 +1,5 @@
 # vcsa-backup
-Another VCSA Backup script using REST API.
+Another VCSA Backup script using REST API written in PowerShell.
 ## Getting Started
 
 These instructions will get you a copy of the script. Executing the script through 2 main functions:
