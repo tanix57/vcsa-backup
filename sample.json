@@ -1,19 +1,19 @@
 {
   "vCenter":{
-	  "Server":"xxx",
-	  "User":"xxx",
-	  "Password":"xxx"
+	  "Server":"xxx", // Hostname or IP address of the vCenter appliance, it can be vCenter, PSC or vCenter with embedded PSC
+	  "User":"xxx", // User name of the user to initiate the operation
+	  "Password":"xxx" // password for the user
   },
   
   "Transfert":{
-	  "Server":"xxx",
-	  "User":"xxx",
-	  "Password":"xxx"
+	  "Server":"xxx", // Hostname or IP address of the FTP server
+	  "User":"xxx", // FTP user name, this user must have permission to upload files and create directories
+	  "Password":"xxx" // password for the user
   },
   
   "SMTP":{
-  	"Server":"xxx",
-	"Sender":"xxx",
-	"Recipient":"xxx"
+  	"Server":"xxx", // Hostname of the mail server to send status
+	"Sender":"xxx", // Sender mail address 
+	"Recipient":"xxx" // Recipient mail address, or recipient mail addresses (comma separated)
   }
 }
