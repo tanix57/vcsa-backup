@@ -1,0 +1,19 @@
+{
+  "vCenter":{
+	  "Server":"xxx",
+	  "User":"xxx",
+	  "Password":"xxx"
+  },
+  
+  "Transfert":{
+	  "Server":"xxx",
+	  "User":"xxx",
+	  "Password":"xxx"
+  },
+  
+  "SMTP":{
+  	"Server":"xxx",
+	"Sender":"xxx",
+	"Recipient":"xxx"
+  }
+}
