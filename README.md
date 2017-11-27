@@ -97,7 +97,7 @@ Edit the JSON configuration file copied in the Installing steps.
 Basically the required information are:
 * Under "vCenter" section, fill hostname or IP address of the vCenter appliance and credentials
 * Under the "Transfert" section, fill hostname or IP address of the FTP server and credentials
-* Under the "SMTP" section, fil the hostname or IP address of the SMTP server, a sender mail address (example vcsa.backup@noreply.yourdomain.com) and a recipient mail address (comma separated if several mail addresses are required)
+* Under the "SMTP" section, fill the hostname or IP address of the SMTP server, a sender mail address (example vcsa.backup@noreply.yourdomain.com) and a recipient mail address (comma separated if several mail addresses are required)
 
 ## Running the script
 
