@@ -513,9 +513,6 @@ function InitiateBackup{
         if($type.Equals($PSC_)){
             $parts = @("common")
         }
-        if($type.Equals([String]::Empty)){
-            $parts = @("common","seat") # To test in case of vCenter Server with an embedded Platform Services Controller
-        }
 
         $location_user = GetFTPUser -Tree $obj
         $location = GetFTPServer -Tree $obj
