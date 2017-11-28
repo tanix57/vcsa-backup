@@ -372,6 +372,8 @@ function GetVcenterType{
             return $VCT_
         }elseif($type.Equals($psc_type)){
             return $PSC_
+	}elseif($type.Equals($vcepsc_type)){
+	    return $VCT_
         }else{ 
             return [String]::Empty
         }
