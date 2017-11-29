@@ -114,4 +114,4 @@ PS C:\Virtualization\VMware\vcsa-backup> .\vcsa-backup.ps1 -f .\test-vcenter.jso
 
 ## Acknowledgments
 
-* I was initially inspired by this article https://www.brianjgraf.com/2016/11/18/vsphere-6-5-automate-vcsa-backup/ and would like to write my own script using REST API only. 
+* I was initially inspired by this article https://www.brianjgraf.com/2016/11/18/vsphere-6-5-automate-vcsa-backup/ and would like to write my own script using REST API only without having to load VMware PowerShell module as pre-requisite. 
